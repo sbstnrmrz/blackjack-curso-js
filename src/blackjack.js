@@ -8,13 +8,13 @@ export function setupBlackjack() {
   const hitButton = document.querySelector('#hit-button');
   const newGameButton = document.querySelector('#new-game-button');
   const standButton = document.querySelector('#stand-button');
-  const assetsPath = '/cartas/'; 
+  const assetsPath = '/assets/cartas/'; 
 
   let isGameOver = false;
 
   const cardBacks = {
-    red: '/cartas/red_back.png', 
-    grey: '/cartas/grey_back.png'
+    red: '/assets/cartas/red_back.png', 
+    grey: '/assets/cartas/grey_back.png'
   };
 
   let player = {
